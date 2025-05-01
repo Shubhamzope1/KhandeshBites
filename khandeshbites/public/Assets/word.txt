@@ -1,0 +1,76 @@
+<div className='main-div'>
+            <div className='row container-fluid'>
+                    <div className=' col-xl-8 category-div'>
+                        <div className=' row resdiv'>
+                            <div className=' col-xl-4 col-div '>
+                                <img className='res-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" /></div>
+                            <div className=' col-xl-8 resrect'>
+                                <div className='start-container'><div className='reptitle'>Pitlah Bhakar</div> </div>
+                                <div className='discription text-light'>Pithle was often paired with "bhakri" (a type of flatbread made from jowar or bajra) in Khandesh. This combination was filling and ideal for both breakfast and dinner. Over the years, it became not just a food item, but a symbol of simplicity, resilience, and the rich agricultural heritage of the region.</div>
+                                <div className='end-container'><div className='reptitle'>Continue Reading</div> </div>
+                            </div>
+                        </div>
+                        <div className=' row resdiv'>
+                            <div className=' col-xl-4 col-div '>
+                                <img className='res-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" /></div>
+                            <div className='col-xl-8 resrect'>
+                                <div className='start-container'><div className='reptitle'>Pitlah Bhakar</div> </div>
+                                <div className='discription text-light'>Pithle was often paired with "bhakri" (a type of flatbread made from jowar or bajra) in Khandesh. This combination was filling and ideal for both breakfast and dinner. Over the years, it became not just a food item, but a symbol of simplicity, resilience, and the rich agricultural heritage of the region.</div>
+                                <div className='end-container'><div className='reptitle'>Continue Reading</div> </div>
+                            </div>
+                        </div>
+                        <div className=' row resdiv'>
+                            <div className=' col-xl-4 col-div '>
+                                <img className='res-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" /></div>
+                            <div className=' col-xl-8 resrect'>
+                                <div className='start-container'><div className='reptitle'>Pitlah Bhakar</div> </div>
+                                <div className='discription text-light'>Pithle was often paired with "bhakri" (a type of flatbread made from jowar or bajra) in Khandesh. This combination was filling and ideal for both breakfast and dinner. Over the years, it became not just a food item, but a symbol of simplicity, resilience, and the rich agricultural heritage of the region.</div>
+                                <div className='end-container'><div className='reptitle'>Continue Reading</div> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-xl-4 '>
+                        <div className='row vertical-line'>
+                        <div className='centered-container'><div className='ingredients'>Categories</div></div>
+                            <div className='col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
+                                    <div className='catbite'>Solo Bite</div>
+                                </div>
+                            </div>
+                            <div className=' col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
+                                    <div className='catbite'>Bhaji Bites </div>
+                                </div>
+                            </div>
+                            <div className=' col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
+                                    <div className='catbite'>Condiments</div>
+                                </div>
+                            </div>
+                            <div className=' col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
+                                    <div className='catbite'>Fermenta </div>
+                                </div>
+                            </div>
+                            <div className=' col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
+                                    <div className='catbite'>Beverages</div>
+                                </div>
+                            </div>
+                            <div className='col-xl-6'>
+                                <div className='cat-div'>
+                                    <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
+                                    <div className='catbite'>Dessert </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>

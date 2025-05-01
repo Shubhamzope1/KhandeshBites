@@ -1,0 +1,107 @@
+
+/* About */
+.abrect {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+
+    height: 290px;
+    background: #8E6197;
+
+
+}
+.about-discription {
+    font-size: 28px;
+    padding: 0px 35px 0px 30px;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    margin: 10px 10px 10px 0px;
+    text-align: justify;
+}
+.kb-discription{
+    font-size: 28px;
+    padding: 0px 15px 0px 10px;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    margin: 10px 10px 10px 0px;
+    text-align: justify;
+}
+.titleAbo{
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFEFE;
+    margin-bottom: 20px;
+}
+.me-img {
+    border-radius: 100%;
+    width: 300px;
+    height: 270px;
+    border: 1px black solid;
+}
+.abt-vl {
+    border: #ABA0AD 1px solid;
+    height: fit-content;
+    width: 96%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .titleAbo {
+        font-family: 'Life Savers';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 78px;
+        text-align: center;
+        color: #FFFEFE;
+        margin-bottom: 20px;
+    }
+    .about-discription {
+        font-size: 24px;
+        padding: 0px 15px 0px 10px;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin: 10px 10px 10px 0px;
+        text-align: justify;
+    }
+    .kb-discription{
+        font-size: 28px;
+        padding: 0px 15px 0px 10px;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin: 10px 10px 10px 0px;
+        text-align: justify;
+    }
+    .category-div {
+        margin: 0px 10px 0px 0px;
+    }
+    .abt-vl {
+        border: #ABA0AD 1px solid;
+        height: fit-content;
+        width: 96%;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,31 @@
+.rect-admin{
+   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.cart-center {
+    padding: 50px 50px 50px 50px;
+   background: bisque;
+   width: 500px;
+   margin-Top: 150px;
+}
+.NameH{
+    font-family: "Khand", serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: Bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.loginModal{
+    font-family: "Khand", serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: Bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

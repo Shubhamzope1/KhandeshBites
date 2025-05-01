@@ -1,0 +1,250 @@
+.main {
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.titleRes {
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFEFE;
+    margin-bottom: 20px;
+}
+
+.textRes {
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFEFE;
+}
+
+.remainsrect {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    height: 290px;
+    background: #8E6197;
+}
+
+.searchbar-res {
+    position: relative;
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 856px;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    bottom: 35px;
+}
+
+.recip-coll {
+    margin: 0px;
+}
+
+.res-discription {
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}
+.leftside-r {
+    margin-top: 20px;
+    display: flex;
+    width: 48%;
+    padding-left: 15px;
+}
+.resprect {
+    width: 90%;
+    margin-top: 5px;
+    background: #8E6197;
+    height: 225px;
+    margin-bottom: 10px;
+}
+
+.resimg {
+    width: 200px;
+    height: 223px;
+    margin: 7px 10px 1px 5px;
+    justify-content: end;
+}
+
+.restitle {
+    position: relative;
+    width: 151px;
+    height: 44px;
+    align-content: center;
+    text-align: center;
+    background: #D9D9D9;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    font-size: 1.5rem;
+    bottom: 15px;
+
+}
+
+.catdiv-center {
+
+    display: flex;
+    justify-content: center;
+
+}
+.cat-vertical-line {
+    border: #ABA0AD 1px solid;
+    height: fit-content;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.cat-div {
+    width: fit-content;
+    margin: 0px 50px 20px 50px;
+}
+
+.cat-img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    flex: none;
+    align-self: center;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catbite {
+    position: relative;
+    width: 110px;
+    height: 29px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+
+        margin-left: 10px;
+    }
+    .cat-div {
+        width: fit-content;
+        margin: 0px 10px 20px 10px;
+    }
+    .cat-img {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .catbite {
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+        font-family: 'Life Savers';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    .titleRes {
+        font-family: 'Life Savers';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 78px;
+        text-align: center;
+        color: #FFFEFE;
+        margin-bottom: 20px;
+    }
+
+    .textRes {
+        font-family: 'Life Savers';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFEFE;
+    }
+
+    .searchbar-res {
+        position: relative;
+        margin: 0px auto;
+        box-sizing: border-box;
+        width: 96%;
+        background: white;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid black;
+        bottom: 35px;
+    }
+
+    .resimg {
+        width: 120px;
+        height: 150px;
+        margin: 7px 10px 1px 5px;
+        justify-content: end;
+    }
+
+    .resprect {
+        width: 90%;
+        margin-top: 5px;
+        background: #8E6197;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .restitle {
+        position: relative;
+        width: 114px;
+        height: 30px;
+        align-content: center;
+        text-align: center;
+        background: #D9D9D9;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        font-size: 18px;
+        bottom: 15px;
+    }
+
+    .res-discription {
+        color: white;
+        font-size: 15px;
+        text-align: justify;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        padding: 0px 10px 0px 10px;
+
+    }
+
+
+
+
+
+
+
+
+}

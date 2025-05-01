@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Khand:wght@300;400;500;600;700&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Khand:wght@300;400;500;600;700&family=Love+Light&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Love+Light&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Love+Light&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Love+Light&family=Pompiere&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Pompiere&family=Rye&display=swap');
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .widthbox{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+.Hicon-search{
+    color: #000000;
+    text-decoration: none;
+    scroll-behavior:calc(0);
+    
+}
+.slogbox {
+    background-color: #8E6197;
+    width: 100%;
+    height: 30px;
+    font-family: "Khand", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+
+}
+
+
+
+.newspace {
+    display: block;
+}
+
+.logoK {
+    font-family: "Love Light", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8E6197;
+    font-size: 48px;
+
+}
+
+.logoH {
+    font-family: "Kaushan Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ABA0AD;
+    font-size: 32px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 24px;
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* .headerdiv {
+    margin-left: 25px;
+
+} */
+
+.NavTab {
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.centered-div {
+    margin: 0px auto;
+}
+
+.Title {
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.searchbar {
+
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 856px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+.suggest{
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 856px;
+    padding: 10px 0px 10px 0px;
+}
+
+.icon-search {
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.search {
+    border: none;
+    padding-left: 20px;
+    width: 90%;
+    font-size: 20px;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    /* Removes the default outline (border-like focus) */
+}
+
+.search:focus {
+    border: none;
+    /* Prevents border on focus */
+    /* Optionally, add other styles to indicate focus if needed */
+    box-shadow: none;
+    /* Removes any default box-shadow focus styles */
+}
+
+.category-end {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.category-start {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: start;
+
+
+}
+
+.solodiv {
+    padding: 10px;
+    margin: 11px 20px 10px 50px;
+}
+
+.svg-hover {
+    position: relatives;
+    top: 0;
+    left: 0;
+    width: 160%;
+    height: 145%;
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.solodiv:hover .svg-hover {
+    opacity: 1;
+}
+
+.solo-img {
+    position: relative;
+    bottom: 268px;
+    left: 30px;
+    width: 110px;
+    height: 140px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 3%;
+
+}
+
+.solobite {
+    position: relative;
+    bottom: 265px;
+    left: 30px;
+    width: 110px;
+    height: 29px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.svg-ts {
+    width: 245px;
+    height: 96px;
+    margin: 100px 10px 10px 100px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 96"><path d="M13.2232 93.3126C-7.30681 109.007 62.8883 24.4588 11.0732 6.07361C-40.7418 -12.3116 98.3027 24.0417 244.417 6.07363C170.818 44.2517 244.417 86.8952 244.417 86.8952C193.198 89.2327 132.049 71.8127 132.049 71.8127C132.049 71.8127 33.7531 77.6184 13.2232 93.3126Z" fill=\'%23D9D9D9\'/></svg>') no-repeat center / contain;
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    /* Removes the default outline (border-like focus) */
+}
+
+.leftside {
+    display: flex;
+}
+
+.sp-img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 2px 5px 0px 30px;
+    justify-content: end;
+    left: 0px;
+    padding-right: 10px;
+
+
+}
+
+.reptitle {
+    width: 151px;
+    height: 44px;
+    align-content: center;
+    text-align: center;
+    background: #D9D9D9;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    font-size: 1.5rem;
+    /* Example font size */
+
+}
+
+.sprect {
+    margin-top: 2px;
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+    background: #8E6197;
+
+}
+
+.spdiv {
+    flex-wrap: nowrap;
+}
+
+.discription {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.discription-b {
+
+    font-size: 28px;
+    text-align: justify;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.discription-fun {
+    color: white;
+    font-size: 26px;
+    text-align: justify;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.discription-tips {
+    color: white;
+    font-size: 26px;
+    text-align: justify;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    padding: 25px 10px 0px 10px;
+}
+
+.centered-container {
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    position: relative;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.cook-text {
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8E6197;
+    font-size: 48px;
+    margin: 10px 10px 10px 30px;
+}
+
+.cook-discription {
+    font-size: 30px;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    margin: 10px 10px 10px 60px;
+    text-align: justify;
+}
+
+/* col-4  */
+.sidesection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.vertical-line {
+    border: #ABA0AD 1px solid;
+    height: fit-content;
+    margin-right: 5px;
+}
+
+.ingredients {
+    width: 151px;
+    height: 44px;
+    align-content: center;
+    text-align: center;
+    background: #D9D9D9;
+    font-family: "Pompiere", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    font-size: 1.7rem;
+    /* Example font size */
+
+}
+
+.cook-rect {
+    margin-top: 5px;
+    height: 198px;
+    width: 100%;
+    background: #8E6197;
+    padding: 0px 0px 5px 0px;
+    margin-left: 30px;
+}
+
+.vertical-rect {
+
+    background-color: #8E6197;
+    height: fit-content;
+    margin-right: 5px;
+}
+
+.navigaters {
+    text-decoration: none !important;
+    color: #000000;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .logoK {
+        font-family: "Love Light", serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8E6197;
+        font-size: 35px;
+        padding-right: 0px;
+
+    }
+
+    .logoH {
+        font-family: "Kaushan Script", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ABA0AD;
+        font-size: 25px;
+        padding-right: 0px;
+    }
+
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-right: 0px;
+        font-size: 16px;
+        font-family: "Libre Caslon Display", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .headerdiv {
+        width: 90%;
+
+    }
+
+    .NavTab {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-right: 0px;
+    }
+
+    .Title {
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        font-size: 22px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .searchbar {
+        margin: 0px auto;
+        box-sizing: border-box;
+        width: 95%;
+        padding: 10px 10px 10px 10px;
+        /* background: lightgray; */
+        border: 1px solid black;
+    }
+
+
+    .solo-img {
+        position: relative;
+        bottom: 176px;
+        left: 34px;
+        width: 80px;
+        height: 80px;
+        margin: 40px 0px 0px 0px;
+        border-radius: 3%;
+        flex: none;
+        align-self: center;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .solobite {
+        position: relative;
+        bottom: 175px;
+        left: 18px;
+        width: 110px;
+        height: 29px;
+        text-align: center;
+        padding-top: 5px;
+        font-family: 'Life Savers';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    .svg-ts {
+        width: 200px;
+        height: 95px;
+        margin: 25px 10px 10px 10px;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 96"><path d="M13.2232 93.3126C-7.30681 109.007 62.8883 24.4588 11.0732 6.07361C-40.7418 -12.3116 98.3027 24.0417 244.417 6.07363C170.818 44.2517 244.417 86.8952 244.417 86.8952C193.198 89.2327 132.049 71.8127 132.049 71.8127C132.049 71.8127 33.7531 77.6184 13.2232 93.3126Z" fill=\'%23D9D9D9\'/></svg>') no-repeat center / contain;
+
+    }
+
+    .category-end {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: stretch;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+
+    }
+
+    .rightside,
+    .img-grid,
+    .sprect-main {
+        padding: 0px;
+        width: 100%;
+    }
+
+
+
+    .solodiv {
+        position: relative;
+        margin: 0px 0px 0px 0px;
+        right: 22px;
+
+    }
+
+    .svg-hover {
+        position: relative;
+        /* top: 50px; */
+        left: 20px;
+
+        width: 100%;
+        height: 110%;
+        background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
+
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .solodiv:hover .svg-hover {
+        opacity: 1;
+    }
+
+    .tpcontainer {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sp-img {
+        position: relative;
+        display: flex;
+        width: 96%;
+        margin: 2px 6px 10px 0px;
+        padding: 0px;
+    }
+
+    .vertical-line {
+        border: #ABA0AD 1px solid;
+        height: fit-content;
+        width: 96%;
+        margin-top: 30px;
+    }
+
+    .sprect {
+        margin-top: 5px;
+        width: 96%;
+        height: 198px;
+        background: #8E6197;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .start-container {
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        position: relative;
+        justify-content: start;
+        margin-bottom: 10px;
+        bottom: 20px;
+        left: 33%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .centered-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        justify-content: center;
+        bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    .discription {
+        font-size: 18px;
+        color: white;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin-top: -11px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .discription-b {
+        font-size: 24px;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .discription-fun {
+        font-size: 22px;
+        color: white;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin-top: -11px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .discription-tips {
+        font-size: 22px;
+        color: white;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin-top: -11px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .cook-div {
+        width: 100%;
+    }
+
+    .cook-rect {
+        margin-top: 5px;
+        width: 96%;
+        height: 198px;
+        background: #8E6197;
+        padding: 0px 10px 5px 0px;
+        margin-left: 10px;
+
+    }
+
+    .cook-text {
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8E6197;
+        font-size: 32px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .cook-discription {
+        font-size: 22px;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+        outline: none;
+        margin: 10px 10px 10px 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }
+
+    .vertical-rect {
+        background-color: #8E6197;
+        height: fit-content;
+        width: 96%;
+        padding-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+}

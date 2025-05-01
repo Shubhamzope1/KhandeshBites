@@ -1,0 +1,31 @@
+.slogbox-foot {
+    background-color: #8E6197;
+    width: 100%;
+    font-family: "Khand", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.mail{
+    text-decoration: none;
+    color: wheat;
+    margin-left: 3px;
+    margin-right: 4px;
+}
+.navigao{
+    text-decoration: none;
+   
+    color: wheat;
+}
+#footer{
+    margin-left: 20px;
+    width: fit-content;
+}
+.maintxt{
+    margin-left: 30px;
+    width: fit-content;
+}
