@@ -11,10 +11,7 @@ class Quick extends React.Component {
         }
 
     }
-    componentDidMount() {
-        
 
-    }
     render() {
         const { recipesData } = this.props;
         return (
@@ -26,7 +23,7 @@ class Quick extends React.Component {
                         <div className='row  tpcontainer'>
                         <div className=' col-xl-8 col-md-6 col-sm-12  leftside'>
 
-                            <div className='row'>
+                            <div className='row g-0 container'>
                                 <div className=' col-xl-4 col-md-6 col-sm-12  img-grid'>
                                     <img className='sp-img' src={item.image} alt="Sorry for the Inconvinience" />
                                 </div>
@@ -36,7 +33,7 @@ class Quick extends React.Component {
                                         <div className='discription'>{item.short_description}</div>
                                     </div>
                                 </div>
-                                <div className='row container sprect-main'>
+                                <div className='row container-fluid sprect-main'>
                                     <div className='cook-div '>
                                         <div className='cook-text'>Cooking Process: </div>
                                         <div className="cook-discription container">

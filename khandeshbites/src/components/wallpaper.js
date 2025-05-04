@@ -40,9 +40,9 @@ class Wallpaper extends React.Component {
         if (suggestions.length === 0) return null;
 
         return (
-            <ul className="list-lab" style={{ backgroundColor: 'white', marginTop: '4px',paddingLeft:'0px', listStyleType: 'none' }}>
+            <ul className="list-lab container" style={{ backgroundColor: 'white', marginTop: '4px',paddingLeft:'0px', listStyleType: 'none' }}>
                 {suggestions.map((item, index) => (
-                    <li style={{ background:'bisque' }} key={index} onClick={() => this.selectedText(item._id)}>
+                    <li className='searchitem container' style={{ background:'bisque' }} key={index} onClick={() => this.selectedText(item._id)}>
                         <img
                             style={{ borderRadius: '50px', padding: '3px', marginRight: '11px' }}
                             src={`./${item.image}`}

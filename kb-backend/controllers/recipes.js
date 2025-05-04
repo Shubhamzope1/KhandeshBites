@@ -49,14 +49,14 @@ exports.getsearch = (req, res) => {
         });
 };
 
-exports.getActiveRecipe =(req, res)=>{
-   
-    recipes.find({isActive: true}).limit(1).then(response =>{
+exports.getActiveRecipe = (req, res) => {
+
+    recipes.find({ isActive: true }).limit(1).then(response => {
         res.status(200).json({ message: "Succesfully", recipes: response })
     })
-    .catch(err => {
-        res.status(500).json({ error: err })
-    })
+        .catch(err => {
+            res.status(500).json({ error: err })
+        })
 };
 
 exports.RecipesById = (req, res) => {

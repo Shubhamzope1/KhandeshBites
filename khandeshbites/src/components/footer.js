@@ -4,10 +4,10 @@ import '../Style/footer.css';
 
 function Footer() {
     return (
-        <footer>
-        <div className='slogbox-foot'>
-            <div className="row container-fluid">
-                <div className="col-lg-4 high" >
+        
+        <div className='slogbox-foot g-0'>
+            <div className="row g-0 container-fluid pos">
+                <div className="col-lg-4 col-sm-4 high" >
                     <h3 className='maintxt'>Nav</h3>
                     <ul>
                         <li id="footer"><NavLink className="navigao" to="/">home</NavLink></li>
@@ -16,7 +16,7 @@ function Footer() {
                     </ul>
 
                 </div>
-                <div className="col-lg-4 high">
+                <div className="col-lg-4 col-sm-4 high">
                     <h3 className='maintxt'>FOR YOU</h3>
                     <ul>
                         <li id="footer"><NavLink className="navigao" to="/contact">ContactUs</NavLink></li>
@@ -24,9 +24,9 @@ function Footer() {
                         
                     </ul>
                 </div>
-                <div className="col-lg-4 fly " >
+                <div className="col-lg-4  col-sm-4 fly " >
                     <h3 className="touch">KEEP IN TOUCH</h3>
-                    <div className="container-fluid fly">Project By:<a href="mailto:shubhamzope1@gmail.com" className="mail"  > KhandeshBites </a>
+                    <div className="g-0 container fly">Project By:<a href="mailto:shubhamzope1@gmail.com" className="mail"  > KhandeshBites </a>
                     <a href="https://www.instagram.com/shubhamzope1" target="_blank" rel="noreferrer">
                                 <i class="fab fa-instagram fontawesome-style text-white start"></i>
                             </a>
@@ -45,7 +45,7 @@ function Footer() {
             </div>
             <div>"copyright@Khandesh Bites"</div>
         </div>
-        </footer>
+       
     );
 }
 

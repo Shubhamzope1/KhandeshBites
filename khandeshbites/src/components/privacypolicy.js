@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class PrivacyPolicy extends Component {
   render() {
     return (
-      <div className="privacy-container">
+      <div className="privacy-container"style={{height: "63vh", minHeight:"fit-content"}}>
         <h2>Privacy Policy</h2>
         <p>
           Khandeshi Bites respects your privacy. We collect minimal personal data

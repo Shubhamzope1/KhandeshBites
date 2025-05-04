@@ -5,12 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Love+Light&family=Pompiere&family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Pompiere&family=Rye&display=swap');
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  .widthbox{
+.widthbox{
     margin-bottom: 20px;
     padding-bottom: 20px;
   }
@@ -20,63 +15,9 @@ footer {
     scroll-behavior:calc(0);
     
 }
-.slogbox {
-    background-color: #8E6197;
-    width: 100%;
-    height: 30px;
-    font-family: "Khand", serif;
-    font-weight: 500;
-    font-style: normal;
-    color: azure;
-    text-align: center;
-
-}
-
-
 
 .newspace {
     display: block;
-}
-
-.logoK {
-    font-family: "Love Light", serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #8E6197;
-    font-size: 48px;
-
-}
-
-.logoH {
-    font-family: "Kaushan Script", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #ABA0AD;
-    font-size: 32px;
-}
-
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    font-size: 24px;
-    font-family: "Libre Caslon Display", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-/* .headerdiv {
-    margin-left: 25px;
-
-} */
-
-.NavTab {
-    margin-left: 8px;
-    margin-right: 10px;
 }
 
 .centered-div {
@@ -393,56 +334,7 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    .logo {
-        text-align: center;
-        padding-right: 0px;
-    }
-
-    .logoK {
-        font-family: "Love Light", serif;
-        font-weight: 500;
-        font-style: normal;
-        color: #8E6197;
-        font-size: 35px;
-        padding-right: 0px;
-
-    }
-
-    .logoH {
-        font-family: "Kaushan Script", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #ABA0AD;
-        font-size: 25px;
-        padding-right: 0px;
-    }
-
-    .navbar {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        padding-right: 0px;
-        font-size: 16px;
-        font-family: "Libre Caslon Display", serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    .headerdiv {
-        width: 90%;
-
-    }
-
-    .NavTab {
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-right: 0px;
-    }
-
-    .Title {
+  .Title {
         font-family: "Pompiere", serif;
         font-weight: 500;
         font-style: normal;
@@ -667,8 +559,8 @@ footer {
         font-weight: 500;
         font-style: normal;
         outline: none;
-        margin: 10px 10px 10px 10px;
-        padding-right: 10px;
+        margin: 10px 10px 10px 0px;
+        padding: 0px 11px 10px 2px;
         text-align: justify;
     }
 
@@ -679,9 +571,30 @@ footer {
         padding-left: 10px;
     }
 
-
-
-
+.searchitem{
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    /* background: lightgray; */
+    border: 1px solid black;
+}
+.suggest{
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+}
+.widthbox {
+    margin-bottom: 20px;
+    padding: 0px 0px 10px 0px;
+}
+.leftside {
+    display: flex;
+    padding: 0px;
+}
+hr{
+    margin: 3px 0px 10px 0px;
+}
 
 
 

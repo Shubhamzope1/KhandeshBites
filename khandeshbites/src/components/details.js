@@ -20,7 +20,7 @@ class Details extends React.Component {
 
         }
         axios({
-            url: 'http://localhost:2001/byId',
+            url: `${process.env.REACT_APP_API_URL}/byId`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterobj

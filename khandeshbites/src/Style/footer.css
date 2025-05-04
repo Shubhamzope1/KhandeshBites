@@ -7,25 +7,89 @@
     color: azure;
     text-align: center;
     margin-top: 20px;
-   
+
 }
 
-.mail{
+.mail {
     text-decoration: none;
     color: wheat;
     margin-left: 3px;
     margin-right: 4px;
 }
-.navigao{
+
+.navigao {
     text-decoration: none;
-   
+
     color: wheat;
 }
-#footer{
+
+#footer {
     margin-left: 20px;
     width: fit-content;
 }
-.maintxt{
-    margin-left: 30px;
+
+.maintxt {
+    margin-left: 20px;
     width: fit-content;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .pos {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #footer {
+        margin-left: 10px;
+        width: fit-content;
+    }
+    .maintxt {
+        font-size: 20px;
+        margin-left: 10px;
+        width: fit-content;
+    }
+
+    .high {
+        width: max-content;
+        margin: 10px 10px 10px 10px;
+        font-size: 15px;
+    }
+
+    .fly {
+        width: fit-content;
+        font-size: 15px;
+        margin: 10px 0px 10px 10px;
+
+    }
+
+    .touch {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mail {
+        text-decoration: none;
+        color: wheat;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
 }

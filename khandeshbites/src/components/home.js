@@ -16,7 +16,7 @@ class Home extends React.Component {
     componentDidMount() {
         //all Categorise
         axios({
-            url: 'http://localhost:2001/categories',
+            url: `${process.env.REACT_APP_API_URL}/categories`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -27,7 +27,7 @@ class Home extends React.Component {
             .catch()
 // Active Recipes
         axios({
-            url: 'http://localhost:2001/isActive',
+            url: `${process.env.REACT_APP_API_URL}/isActive`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -38,7 +38,7 @@ class Home extends React.Component {
             .catch()
 //All recipes
         axios({
-            url: 'http://localhost:2001/recipes',
+            url: `${process.env.REACT_APP_API_URL}/recipes`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })

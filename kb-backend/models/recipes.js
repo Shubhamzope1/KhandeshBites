@@ -16,7 +16,7 @@ const recipesSchema = new Schema({
     ingredients: {
         type: Array,
         required: true
-    }, 
+    },
     short_description: {
         type: String,
         required: true

@@ -20,7 +20,7 @@ class filteredrecipes extends React.Component {
 
         }
         axios({
-            url: 'http://localhost:2001/filter',
+            url: `${process.env.REACT_APP_API_URL}/filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterobj
@@ -48,49 +48,6 @@ class filteredrecipes extends React.Component {
                     <input className='search' placeholder='Search By keyword   or   By Key Ingredients ?'></input>
                 </div>
 
-                {/* <div className='row cat-vertical-line'>
-                    <div className='centered-container'><div className='ingredients'>Categories</div>
-                    </div>
-                    <div className='row g-0 catdiv-center'>
-                        <div className=' cat-div '>
-
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
-                            <div className='catbite'>Solo Bite</div>
-                        </div>
-                        <div className='cat-div'>
-
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
-                            <div className='catbite'>Bhaji Bites </div>
-
-                        </div>
-                        <div className=' cat-div'>
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
-                            <div className='catbite'>Condiments</div>
-
-                        </div>
-                        <div className='  cat-div'>
-
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
-                            <div className='catbite'>Fermenta </div>
-
-                        </div>
-                        <div className='  cat-div'>
-
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="50%" width="50%" />
-                            <div className='catbite'>Beverages</div>
-
-                        </div>
-                        <div className=' cat-div'>
-
-                            <img className='cat-img' src='./Assets/curry.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
-                            <div className='catbite'>Dessert </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div> */}
 
                 <div className='row g-0 container-fluid'>
                     {recipes.map((item,index)=>(

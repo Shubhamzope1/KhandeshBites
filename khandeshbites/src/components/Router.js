@@ -6,15 +6,12 @@ import filteredrecipes from './filteredrecipes';
 import recipes from './recipes';
 import About from './about';
 import Details from './details';
-import Admin from './admin';
-import Dashboard from './dashboard';
-import ProtectedRoute from './protectedroute';
 import PrivacyPolicy from './privacypolicy';
 import ContactUs from './contactus';
 
 
 
-
+ 
 
 function Router() {
   return (
@@ -26,12 +23,6 @@ function Router() {
         <Route path="/recipes" component={recipes} />
         <Route path="/about" component={About} />
         <Route path="/details" component={Details} />
-        <Route path="/admin" component={Admin} />
-        <Route path="/dashboard" render={() => (
-          <ProtectedRoute>
-            <Dashboard />
-          </ProtectedRoute>
-        )} />
         <Route path="/privacy" component={PrivacyPolicy} />
         <Route path="/contact" component={ContactUs} />
 
