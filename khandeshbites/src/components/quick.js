@@ -33,8 +33,8 @@ class Quick extends React.Component {
                                         <div className='discription'>{item.short_description}</div>
                                     </div>
                                 </div>
-                                <div className='row container-fluid sprect-main'>
-                                    <div className='cook-div '>
+                                <div className='row container-fluid g-0 sprect-main'>
+                                    <div className='container-fluid g-0 cook-div '>
                                         <div className='cook-text'>Cooking Process: </div>
                                         <div className="cook-discription container">
                                             <ol>
@@ -62,7 +62,7 @@ class Quick extends React.Component {
 
 
                         </div>
-                        <div className=' col-xl-4 col-md-6 col-sm-12 container-fluid rightside '>
+                        <div className=' col-xl-4 col-md-6 col-sm-12 container rightside '>
                             <div className='vertical-line '>
                                 <div className='centered-container'><div className='ingredients'>Ingredients</div></div>
                                 <div className='centered-container '>

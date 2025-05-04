@@ -334,6 +334,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .widthbox{
+        width: 90%;
+    }
   .Title {
         font-family: "Pompiere", serif;
         font-weight: 500;
@@ -402,15 +405,6 @@
 
     }
 
-    .rightside,
-    .img-grid,
-    .sprect-main {
-        padding: 0px;
-        width: 100%;
-    }
-
-
-
     .solodiv {
         position: relative;
         margin: 0px 0px 0px 0px;
@@ -444,7 +438,7 @@
     .sp-img {
         position: relative;
         display: flex;
-        width: 96%;
+        width: 100%;
         margin: 2px 6px 10px 0px;
         padding: 0px;
     }
@@ -452,13 +446,15 @@
     .vertical-line {
         border: #ABA0AD 1px solid;
         height: fit-content;
-        width: 96%;
+        width: 100%;
         margin-top: 30px;
     }
-
+.sprect-main{
+    width: 100%;
+}
     .sprect {
         margin-top: 5px;
-        width: 96%;
+        width: 100%;
         height: 198px;
         background: #8E6197;
         padding: 0px 0px 0px 0px;
@@ -532,14 +528,15 @@
 
     .cook-div {
         width: 100%;
+        padding: 0px;
     }
 
     .cook-rect {
         margin-top: 5px;
-        width: 96%;
+        width: 100%;
         height: 198px;
         background: #8E6197;
-        padding: 0px 10px 5px 0px;
+        padding: 0px 0px 5px 0px;
         margin-left: 10px;
 
     }
@@ -567,7 +564,7 @@
     .vertical-rect {
         background-color: #8E6197;
         height: fit-content;
-        width: 96%;
+        width: 100%;
         padding-left: 10px;
     }
 
@@ -591,6 +588,10 @@
 .leftside {
     display: flex;
     padding: 0px;
+}
+.rightside{
+    padding: 0px;
+    width: 100%;
 }
 hr{
     margin: 3px 0px 10px 0px;
