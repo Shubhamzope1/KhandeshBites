@@ -81,7 +81,7 @@ class Wallpaper extends React.Component {
                     <div className='row container-fluid  centerd'>
                         {categoriesData && categoriesData.length > 0 ? (
                             categoriesData.map((item) => (
-                                <div className='col-xl-2 col-md-2 col-sm-4 container-fluid g-0 solodiv'>
+                                <div className='col-xl-2 col-md-2 col-sm-4 container-fluid g-0 solodiv' onClick={() => this.handleNavigate(item._id)} key={item._id} >
 
                                     < div className='cat-con'>
                                         <div className='svg-hover'></div>
