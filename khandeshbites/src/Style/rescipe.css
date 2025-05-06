@@ -27,7 +27,7 @@
     justify-content: center;
     margin-top: 5px;
     height: 290px;
-    background: #8E6197;
+    background: #E64242;
 }
 
 .searchbar-res {
@@ -72,7 +72,7 @@
 .resprect {
     width: 90%;
     margin-top: 5px;
-    background: #8E6197;
+    background: #E64242;
     height: 225px;
     margin-bottom: 10px;
 }
@@ -214,7 +214,7 @@
     .resprect {
         width: 90%;
         margin-top: 5px;
-        background: #8E6197;
+        background: #E64242;
         height: 150px;
         margin-bottom: 10px;
     }

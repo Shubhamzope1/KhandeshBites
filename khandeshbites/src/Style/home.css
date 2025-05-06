@@ -5,15 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Love+Light&family=Pompiere&family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Khand:wght@300;400;500;600;700&family=Libre+Caslon+Display&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Pompiere&family=Rye&display=swap');
 
-.widthbox{
+.widthbox {
     margin-bottom: 20px;
     padding-bottom: 20px;
-  }
-.Hicon-search{
+}
+
+.Hicon-search {
     color: #000000;
     text-decoration: none;
-    scroll-behavior:calc(0);
-    
+    scroll-behavior: calc(0);
+
 }
 
 .newspace {
@@ -40,7 +41,8 @@
     padding: 10px 10px 10px 10px;
     border: 1px solid black;
 }
-.suggest{
+
+.suggest {
     margin: 0px auto;
     box-sizing: border-box;
     width: 856px;
@@ -94,20 +96,38 @@
 
 }
 
+.solomain {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.centerd{
+    display: flex;
+    justify-content: center;
+}
+
 .solodiv {
-    padding: 10px;
-    margin: 11px 20px 10px 50px;
+    display: flex;
+    width: fit-content;
+    margin: 0px 50px 0px 0px;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
 }
 
 .svg-hover {
-    position: relatives;
-    top: 0;
-    left: 0;
-    width: 160%;
-    height: 145%;
-    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    margin: 12px 0px 0px 15px;
+    height: 234px;
     opacity: 0;
     transition: opacity 0.3s ease;
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
+
 }
 
 .solodiv:hover .svg-hover {
@@ -115,20 +135,23 @@
 }
 
 .solo-img {
-    position: relative;
-    bottom: 268px;
-    left: 30px;
     width: 110px;
     height: 140px;
-    margin: 35px 0px 0px 0px;
+    margin: 15px 0px 0px 10px;
     border-radius: 3%;
 
 }
 
+.cat-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 .solobite {
-    position: relative;
-    bottom: 265px;
-    left: 30px;
+
     width: 110px;
     height: 29px;
     text-align: center;
@@ -194,7 +217,7 @@
     margin-top: 2px;
     height: 300px;
     padding: 0px 10px 0px 10px;
-    background: #8E6197;
+    background: #E64242;
 
 }
 
@@ -265,7 +288,7 @@
     font-family: "Pompiere", serif;
     font-weight: 500;
     font-style: normal;
-    color: #8E6197;
+    color: #E64242;
     font-size: 48px;
     margin: 10px 10px 10px 30px;
 }
@@ -313,14 +336,14 @@
     margin-top: 5px;
     height: 198px;
     width: 100%;
-    background: #8E6197;
+    background: #E64242;
     padding: 0px 0px 5px 0px;
     margin-left: 30px;
 }
 
 .vertical-rect {
 
-    background-color: #8E6197;
+    background-color: #E64242;
     height: fit-content;
     margin-right: 5px;
 }
@@ -334,10 +357,11 @@
 
 
 @media screen and (max-width: 768px) {
-    .widthbox{
+    .widthbox {
         width: 90%;
     }
-  .Title {
+
+    .Title {
         font-family: "Pompiere", serif;
         font-weight: 500;
         font-style: normal;
@@ -355,13 +379,38 @@
         border: 1px solid black;
     }
 
+    .solomain {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .centerd {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+
+    .solodiv {
+        display: flex;
+        width: fit-content;
+        margin: 0px 6px 0px 0px;
+        padding: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+    }
 
     .solo-img {
-        position: relative;
-        bottom: 176px;
-        left: 34px;
-        width: 80px;
-        height: 80px;
+        width: 85px;
+        height: 100px;
         margin: 40px 0px 0px 0px;
         border-radius: 3%;
         flex: none;
@@ -371,10 +420,7 @@
     }
 
     .solobite {
-        position: relative;
-        bottom: 175px;
-        left: 18px;
-        width: 110px;
+        width: 100px;
         height: 29px;
         text-align: center;
         padding-top: 5px;
@@ -394,36 +440,33 @@
 
     }
 
-    .category-end {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: stretch;
-        margin: 0px;
-        padding: 0px;
-        justify-content: center;
-
-    }
-
-    .solodiv {
-        position: relative;
-        margin: 0px 0px 0px 0px;
-        right: 22px;
-
-    }
-
     .svg-hover {
-        position: relative;
-        /* top: 50px; */
-        left: 20px;
-
-        width: 100%;
-        height: 110%;
-        background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
-
+        position: absolute;
+        z-index: -1;
+        width: 133px;
+        margin: 35px 0px 0px 3px;
+        height: 180px;
         opacity: 0;
         transition: opacity 0.3s ease;
+        background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="198" height="276" viewBox="0 0 198 276" fill="none"><path d="M5.00003 12.5594C-30.0867 -9.9406 136.524 67.6188 182.512 12.5594C228.5 -42.5 150.237 94.0665 182.512 251.41C182.512 251.41 108.47 297.609 97.553 260.865C86.6365 224.121 5 260.865 5 260.865C2.87561 205.827 5.00005 161.059 5.00005 161.059C5.00005 161.059 40.0868 35.0593 5.00003 12.5594Z" fill="%23D9D9D9"/></svg>') no-repeat center / contain;
+
     }
+
+    .solodiv:hover .svg-hover {
+        opacity: 1;
+    }
+
+
+
+    .cat-con {
+        display: flex;
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
 
     .solodiv:hover .svg-hover {
         opacity: 1;
@@ -449,14 +492,16 @@
         width: 100%;
         margin-top: 30px;
     }
-.sprect-main{
-    width: 100%;
-}
+
+    .sprect-main {
+        width: 100%;
+    }
+
     .sprect {
         margin-top: 5px;
         width: 100%;
         height: 198px;
-        background: #8E6197;
+        background: #E64242;
         padding: 0px 0px 0px 0px;
     }
 
@@ -535,7 +580,7 @@
         margin-top: 5px;
         width: 100%;
         height: 198px;
-        background: #8E6197;
+        background: #E64242;
         padding: 0px 0px 5px 0px;
         margin-left: 10px;
 
@@ -545,7 +590,7 @@
         font-family: "Pompiere", serif;
         font-weight: 500;
         font-style: normal;
-        color: #8E6197;
+        color: #E64242;
         font-size: 32px;
         margin: 10px 10px 10px 10px;
     }
@@ -562,40 +607,45 @@
     }
 
     .vertical-rect {
-        background-color: #8E6197;
+        background-color: #E64242;
         height: fit-content;
         width: 100%;
         padding-left: 10px;
     }
 
-.searchitem{
-    margin: 0px auto;
-    box-sizing: border-box;
-    padding: 10px 10px 10px 10px;
-    /* background: lightgray; */
-    border: 1px solid black;
-}
-.suggest{
-    margin: 0px auto;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0px 0px 0px 10px;
-}
-.widthbox {
-    margin-bottom: 20px;
-    padding: 0px 0px 10px 0px;
-}
-.leftside {
-    display: flex;
-    padding: 0px;
-}
-.rightside{
-    padding: 0px;
-    width: 100%;
-}
-hr{
-    margin: 3px 0px 10px 0px;
-}
+    .searchitem {
+        margin: 0px auto;
+        box-sizing: border-box;
+        padding: 10px 10px 10px 10px;
+        /* background: lightgray; */
+        border: 1px solid black;
+    }
+
+    .suggest {
+        margin: 0px auto;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .widthbox {
+        margin-bottom: 20px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .leftside {
+        display: flex;
+        padding: 0px;
+    }
+
+    .rightside {
+        padding: 0px;
+        width: 100%;
+    }
+
+    hr {
+        margin: 3px 0px 10px 0px;
+    }
 
 
 

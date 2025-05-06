@@ -8,7 +8,7 @@
     margin-top: 5px;
 
     height: 290px;
-    background: #8E6197;
+    background: #E64242;
 
 
 }
@@ -43,10 +43,8 @@
     margin-bottom: 20px;
 }
 .me-img {
-    border-radius: 100%;
     width: 300px;
-    height: 270px;
-    border: 1px black solid;
+    height: 100px;
 }
 .abt-vl {
     border: #ABA0AD 1px solid;

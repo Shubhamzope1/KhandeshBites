@@ -11,7 +11,7 @@ class About extends React.Component {
             <div className='main'>
                 <div className='abrect'>
                     <div className='titleAbo'>ABOUT Me</div>
-                    <div className='textRes'>"Spicing Up Your Kitchen, One Khandeshi Bite at a Time!"</div>
+                    <div className='textRes'>"Spicing Up Your Kitchen, One YummyTummy at a Time!"</div>
                 </div>
                 <div className='row g-0 container-fluid'>
                     <div className='col-xl-8 col-md-8 col-sm-6 g-0 category-div container-fluid'>
@@ -36,7 +36,7 @@ class About extends React.Component {
                         <div className='row abt-vl'><div className='centered-container'><div className='ingredients'>About Me</div></div>
                             <div className='centered-container mt-5 mb-5'>
                                 <div className='me-img'>
-                                    <img className='me-img' src='./Assets/Group.jpg' alt="Sorry for the Inconvinience" height="100%" width="100%" />
+                                    <img className='me-img' src='./Assets/Vector.png' alt="Sorry for the Inconvinience" height="100%" width="100%" />
                                 </div>
                                 <div className='kb-discription container'>Hi, I’m KhandeshBites, the creator of Khandeshi Bites. Passionate about food as a story and connection, I grew up in Khandesh and developed a love for Maharashtra’s diverse flavors.<br />
 

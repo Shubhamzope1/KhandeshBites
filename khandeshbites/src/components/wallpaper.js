@@ -40,9 +40,9 @@ class Wallpaper extends React.Component {
         if (suggestions.length === 0) return null;
 
         return (
-            <ul className="list-lab container" style={{ backgroundColor: 'white', marginTop: '4px',paddingLeft:'0px', listStyleType: 'none' }}>
+            <ul className="list-lab container" style={{ backgroundColor: 'white', marginTop: '4px', paddingLeft: '0px', listStyleType: 'none' }}>
                 {suggestions.map((item, index) => (
-                    <li className='searchitem container' style={{ background:'bisque' }} key={index} onClick={() => this.selectedText(item._id)}>
+                    <li className='searchitem container' style={{ background: 'bisque' }} key={index} onClick={() => this.selectedText(item._id)}>
                         <img
                             style={{ borderRadius: '50px', padding: '3px', marginRight: '11px' }}
                             src={`./${item.image}`}
@@ -71,27 +71,29 @@ class Wallpaper extends React.Component {
                             placeholder='Search by keyword or key ingredients'
                             onChange={this.handleInput}
                         />
-                        
+
                     </div>
                     <div className='suggest'>{this.renderSuggestions()}</div>
                 </div>
 
-                <div className='container-fluid g-0 category-end'>
-                    {categoriesData && categoriesData.length > 0 ? (
-                        categoriesData.map((item) => (
-                            <div onClick={() => this.handleNavigate(item._id)} key={item._id} className='solodiv'>
-                                <div className='svg-hover'></div>
-                                <img
-                                    className='solo-img'
-                                    src={`./${item.image}`}
-                                    alt="No Image"
-                                    height="50%"
-                                    width="50%"
-                                />
-                                <div className='solobite'>{item.name}</div>
-                            </div>
-                        ))
-                    ) : null}
+                <div className='container solomain'>
+
+                    <div className='row container-fluid  centerd'>
+                        {categoriesData && categoriesData.length > 0 ? (
+                            categoriesData.map((item) => (
+                                <div className='col-xl-2 col-md-2 col-sm-4 container-fluid g-0 solodiv'>
+
+                                    < div className='cat-con'>
+                                        <div className='svg-hover'></div>
+                                        <img className='solo-img' src={`./${item.image}`} alt="No Image" />
+                                        <div className='solobite'>{item.name}</div>
+                                    </div>
+
+                                </div>
+                            ))
+                        ) : null}
+                    </div>
+
                 </div>
             </>
         )

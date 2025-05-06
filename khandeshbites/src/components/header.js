@@ -10,11 +10,10 @@ function Header() {
                 <div>"रोज नवा अनुभव, रोज नवा स्वाद!"</div>
             </div>
             <div className='row container-fluid mt-4 headerdiv'>
-                <div className='col-xl-8  col-md-8 col-sm-6 logo container'>
-                    <span className='logoK'>K</span><span className='logoH'>handesh</span>
-                    <span className='logoK'>&nbsp;B</span><span className='logoH'>ites</span>
+                <div className='col-xl-8  col-md-6 col-sm-6 logo container'>
+                <img src="./Assets/Vector.png" alt="No Image" className='yummy'/>
                 </div>
-                <div className=' col-xl-4  col-md-2 col-sm-6 navbar'>
+                <div className=' col-xl-4  col-md-6 col-sm-6 navbar'>
                     <span className='NavTab'><NavLink className="navigaters" to="/">HOME</NavLink></span>
                     <span className='NavTab'><NavLink className="navigaters" to="/recipes">RECIPES</NavLink></span>
                     <span className='NavTab'><NavLink className="navigaters" to="/about">ABOUT</NavLink></span>

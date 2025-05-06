@@ -43,11 +43,7 @@ class filteredrecipes extends React.Component {
                     <div className='titleRes'>Recipes</div>
                     <div className='textRes'>“Savour the authentic taste of Khandesh, where every bite tells a story.”</div>
                 </div>
-                <div className='searchbar-res'>
-                    <i className="fas fa-search icon-search"></i>
-                    <input className='search' placeholder='Search By keyword   or   By Key Ingredients ?'></input>
-                </div>
-
+              
 
                 <div className='row g-0 container-fluid'>
                     {recipes.map((item,index)=>(
