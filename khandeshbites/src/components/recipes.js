@@ -9,6 +9,7 @@ class recipes extends React.Component {
         super(props);
         this.state = {
             recipes: [],
+        
         };
     }
 
@@ -34,7 +35,9 @@ class recipes extends React.Component {
             this.props.history.push(`/details?by_id=${by_id}`);
             console.log("Navigating to:", `/details?by_id=${by_id}`);
         };
-    
+        ratingChanged = (newRating) => {
+            console.log(newRating)
+          };
     render() {
        
         return (
@@ -54,8 +57,7 @@ class recipes extends React.Component {
  
                          <div className='resprect'>
                              <div className='restitle'>{item.title}</div>
-                             <div className='container res-discription '>{item.short_description}</div>
- 
+                             <div className='container res-discription '>{item.short_description}</div>                            
                          </div>
                      </div>
                     ))}
