@@ -464,7 +464,7 @@
 
     .cat-con {
         display: flex;
-
+        margin-top: 20px;
         flex-direction: column-reverse;
         justify-content: center;
         align-content: center;
@@ -634,8 +634,8 @@
     }
 
     .widthbox {
-        margin-bottom: 20px;
-        padding: 0px 0px 10px 0px;
+        padding: 0 0 0 0px;
+        margin: 0px 0px 10px 8px;
     }
 
     .leftside {
