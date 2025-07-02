@@ -20,8 +20,8 @@ class Quick extends React.Component {
                 <div className='row svg-ts'><span className='text'>Today's Special</span></div>
                 {recipesData && recipesData.length > 0 ? (
                     recipesData.map((item,index)=>(
-                        <div className='row  tpcontainer'>
-                        <div className=' col-xl-8 col-md-6 col-sm-12  leftside'>
+                        <div className='row  tpcontainer' >
+                        <div className=' col-xl-8 col-md-6 col-sm-12  leftside' data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
                             <div className='row g-0 container'>
                                 <div className=' col-xl-4 col-md-6 col-sm-12  img-grid'>
@@ -37,9 +37,9 @@ class Quick extends React.Component {
                                     <div className='container-fluid g-0 cook-div '>
                                         <div className='cook-text'>Cooking Process: </div>
                                         <div className="cook-discription container">
-                                            <ol>
+                                            <ol className='container'>
                                                 {item.cooking_process && item.cooking_process.map((step, index) => (
-                                                    <li key={index}>{step}</li>
+                                                    <li key={index} className='container'>{step} </li>
                                                 ))}
                                             </ol>
 
@@ -62,7 +62,7 @@ class Quick extends React.Component {
 
 
                         </div>
-                        <div className=' col-xl-4 col-md-6 col-sm-12 container rightside '>
+                        <div className=' col-xl-4 col-md-6 col-sm-12 container rightside ' data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                             <div className='vertical-line '>
                                 <div className='centered-container'><div className='ingredients'>Ingredients</div></div>
                                 <div className='centered-container '>

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Style/home.css';
 import { withRouter } from 'react-router-dom';
-
+import '../Style/Header.css';
 class Wallpaper extends React.Component {
     constructor() {
         super();
@@ -40,9 +40,9 @@ class Wallpaper extends React.Component {
         if (suggestions.length === 0) return null;
 
         return (
-            <ul className="list-lab container" style={{ backgroundColor: 'white', marginTop: '4px', paddingLeft: '0px', listStyleType: 'none' }}>
+            <ul className="list-lab container">
                 {suggestions.map((item, index) => (
-                    <li className='searchitem container' style={{ background: 'bisque' }} key={index} onClick={() => this.selectedText(item._id)}>
+                    <li className='searchitem container ' key={index} onClick={() => this.selectedText(item._id)}>
                         <img
                             style={{ borderRadius: '50px', padding: '3px', marginRight: '11px' }}
                             src={`./${item.image}`}
@@ -62,21 +62,25 @@ class Wallpaper extends React.Component {
         return (
             <>
                 <div className='main-div'>
-                    <div className='Title'>From our kitchen to your table, experience the soul of <span className='logoK'>Khandesh.</span></div>
-                    <div className='searchbar' id='searchbar'>
-                        <i className="fas fa-search icon-search"></i>
-                        <input
-                            id='search'
-                            className='search'
-                            placeholder='Search by keyword or key ingredients'
-                            onChange={this.handleInput}
-                        />
+                    <img className='chef-img ' src="./Assets/chef1.png" alt="No Image"  data-aos="fade-right"/>
+                    <div className="search-sect" data-aos="fade-right">
+                        <div className='Title' >Feeding Cravings, One Recipe at a Time!</div>
+                        <div className='searchbar' id='searchbar'>
+                            <input
+                                id='search'
+                                className='search'
+                                placeholder='Search by keyword or key ingredients'
+                                onChange={this.handleInput}
+                            />
+                            <i className="fas fa-search icon-search"></i>
 
+
+                        </div>
                     </div>
-                    <div className='suggest'>{this.renderSuggestions()}</div>
+                    <div className='search'>{this.renderSuggestions()}</div>
                 </div>
 
-                <div className='container solomain'>
+                <div className='container solomain' data-aos="fade-up" data-aos-duration="3000">
 
                     <div className='row container-fluid  centerd'>
                         {categoriesData && categoriesData.length > 0 ? (

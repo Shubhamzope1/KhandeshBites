@@ -10,6 +10,18 @@
     padding-bottom: 20px;
 }
 
+.main-div {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),  url('wallpaper.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .Hicon-search {
     color: #000000;
     text-decoration: none;
@@ -26,20 +38,19 @@
 }
 
 .Title {
+    display: inline-block;
     font-family: "Pompiere", serif;
     font-weight: 500;
     font-style: normal;
-    text-align: center;
+    font-size: 30px;
+    margin: 6px 0px 8px 330px;
     font-size: 30px;
 }
 
 .searchbar {
-
-    margin: 0px auto;
-    box-sizing: border-box;
-    width: 856px;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid black;
+    display: flex;
+    width: 756px;
+   
 }
 
 .suggest {
@@ -50,20 +61,33 @@
 }
 
 .icon-search {
+    position: relative;
+    right: 38px;
+    top: 6px;
     font-size: 24px;
-    padding-top: 5px;
+   
+}
+.list-lab{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 7px;
+    list-style-type: none;
+}
+.chef-img{
+    margin-left: 360px;
+    width: 275px;
+    height: 258px;
+    
 }
 
 .search {
-    border: none;
-    padding-left: 20px;
-    width: 90%;
+    width: 500px;
+    display: inline-block;
+    margin-left: 255px;
     font-size: 20px;
     font-family: "Pompiere", serif;
     font-weight: 500;
     font-style: normal;
-    outline: none;
-    /* Removes the default outline (border-like focus) */
 }
 
 .search:focus {
@@ -100,7 +124,8 @@
     margin-left: 150px;
     margin-top: 30px;
 }
-.centerd{
+
+.centerd {
     display: flex;
     justify-content: center;
 }
@@ -298,6 +323,7 @@
 
 .cook-discription {
     font-size: 30px;
+    width: auto;
     font-family: "Pompiere", serif;
     font-weight: 500;
     font-style: normal;
@@ -364,25 +390,56 @@
     .widthbox {
         width: 90%;
     }
+    .main-div {
+        background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url('wallpaper.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      
 
+    }
+    .search-sect{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .chef-img {
+        margin-left: 50px;
+        width: 125px;
+        height: 140px;
+    }
     .Title {
+        display: inline-block;
         font-family: "Pompiere", serif;
         font-weight: 500;
         font-style: normal;
-        text-align: center;
-        font-size: 22px;
+        font-size: 18px;
         margin: 0px 10px 0px 10px;
     }
 
     .searchbar {
-        margin: 0px auto;
-        box-sizing: border-box;
-        width: 95%;
-        padding: 10px 10px 10px 10px;
-        /* background: lightgray; */
-        border: 1px solid black;
+        width: 270px;
     }
-
+    .search {
+        width: 500px;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: "Pompiere", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .icon-search {
+        position: relative;
+        right: 38px;
+        top: 6px;
+        font-size: 18px;
+    }
     .solomain {
         display: flex;
         margin-left: 0px;
@@ -464,7 +521,7 @@
 
     .cat-con {
         display: flex;
-
+        margin-top: 20px;
         flex-direction: column-reverse;
         justify-content: center;
         align-content: center;
@@ -634,8 +691,8 @@
     }
 
     .widthbox {
-        margin-bottom: 20px;
-        padding: 0px 0px 10px 0px;
+        padding: 0 0 0 0px;
+        margin: 0px 0px 10px 8px;
     }
 
     .leftside {
